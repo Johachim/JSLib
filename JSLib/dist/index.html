@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Denmarks Heroes</title>
+  <style>
+    body{font-size: 1.5em;
+    background: orange;}
+    .container{margin: 40px; margin-top: 60px;}
+    
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <p>Everyone in the world knows of the greatest danish heroes to have ever lived. The rightful winners of Tour de France 2004. None other than the cycling team 
+      <span class="tooltip" data-message="De gi'r dem baghjul">"Team easy on!"</span>
+      
+    </p>
+    <h2>Accomplistments</h2>
+    <!-- dropdowns -->
+    <div class="dropdown">
+      <div class="trigger">Best wildcard team</div>
+      <div class="content">
+        <p>In their prime, they sat atop all other cycling wildcard teams as the undisputed number 1!</p>
+      </div>
+    </div>
+    <div class="dropdown">
+      <div class="trigger">Winners of Tour De France</div>
+      <div class="content">
+        <p>In 2004 they won Tour De France, but their victory was stolen by dirty officials who accepted bribes from Lance Armstrong and his team, thereby making him appear as the winner of the race.</p>
+      </div>
+    </div>
+    <h2>More information</h2>
+    <!-- tabs -->
+    <div class="tabs">
+      <ul>
+        <li class="trigger active" data-target="#about">About</li>
+        <li class="trigger" data-target="#delivery">Sponsors</li>
+        <li class="trigger" data-target="#returns">Pink & Orange</li>
+      </ul>
+      <div id="about" class="content active">
+        <h3>About</h3>
+        <p>The team consisted of Members:<br> Henning Primdahl - as coach and manager<br> Bobby Olsen - team captain<br> Pim Dekeysergracht - dutch sprinter</p>
+      </div>
+      <div id="delivery" class="content">
+        <h3>Sponsorships</h3>
+        <p>The team was sponsored by, and named after, the very prestigious condom brand "Easy On"</p>
+      </div>
+      <div id="returns" class="content">
+        <h3>Pink & Orange</h3>
+        <p>Is the color combination, and the teams colors.</p>
+      </div>
+    </div>
+    <div>
+      <br>
+      <button class="snackbar-trigger">Click</button>
+    </div>
+  </div>
+
+  <script src="assets/bundle.js"></script>
+</body>
+</html>
